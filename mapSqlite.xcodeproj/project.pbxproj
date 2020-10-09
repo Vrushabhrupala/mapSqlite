@@ -1,0 +1,696 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		79899E6A252F2C1900597A77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79899E69252F2C1900597A77 /* AppDelegate.swift */; };
+		79899E6C252F2C1900597A77 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79899E6B252F2C1900597A77 /* SceneDelegate.swift */; };
+		79899E6E252F2C1900597A77 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79899E6D252F2C1900597A77 /* ViewController.swift */; };
+		79899E71252F2C1900597A77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79899E6F252F2C1900597A77 /* Main.storyboard */; };
+		79899E73252F2C1B00597A77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79899E72252F2C1B00597A77 /* Assets.xcassets */; };
+		79899E76252F2C1B00597A77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79899E74252F2C1B00597A77 /* LaunchScreen.storyboard */; };
+		79899E81252F2C1B00597A77 /* mapSqliteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79899E80252F2C1B00597A77 /* mapSqliteTests.swift */; };
+		79899E8C252F2C1B00597A77 /* mapSqliteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79899E8B252F2C1B00597A77 /* mapSqliteUITests.swift */; };
+		79899EA9252F2D6200597A77 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79899EA8252F2D6200597A77 /* UIKit.framework */; };
+		79899EAB252F2D7000597A77 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79899EAA252F2D6F00597A77 /* SystemConfiguration.framework */; };
+		79899EAD252F2D7800597A77 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79899EAC252F2D7800597A77 /* QuartzCore.framework */; };
+		79899EAF252F2D8100597A77 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79899EAE252F2D8100597A77 /* OpenGLES.framework */; };
+		79899EB1252F2D8A00597A77 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 79899EB0252F2D8A00597A77 /* libz.tbd */; };
+		79899EB6252F2D9900597A77 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 79899EB5252F2D9900597A77 /* libc++.tbd */; };
+		79899EBB252F2DAD00597A77 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79899EBA252F2DAD00597A77 /* ImageIO.framework */; };
+		79899EBD252F2DB900597A77 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79899EBC252F2DB900597A77 /* GLKit.framework */; };
+		79899EBF252F2DC300597A77 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79899EBE252F2DC300597A77 /* CoreTelephony.framework */; };
+		79899EC1252F2DCC00597A77 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79899EC0252F2DCC00597A77 /* CoreText.framework */; };
+		79899EC3252F2DDF00597A77 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79899EC2252F2DDF00597A77 /* CoreLocation.framework */; };
+		79899EC5252F2DE900597A77 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79899EC4252F2DE900597A77 /* CoreImage.framework */; };
+		79899EC7252F2DF000597A77 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79899EC6252F2DF000597A77 /* CoreGraphics.framework */; };
+		79899EC9252F2DF900597A77 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79899EC8252F2DF800597A77 /* CoreData.framework */; };
+		79899ECB252F2E0300597A77 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79899ECA252F2E0300597A77 /* Accelerate.framework */; };
+		79899EDC252F337B00597A77 /* GoogleMapsBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79899ED8252F337600597A77 /* GoogleMapsBase.framework */; };
+		79899EDD252F337B00597A77 /* GoogleMapsCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79899ED9252F337800597A77 /* GoogleMapsCore.framework */; };
+		79899EDE252F337B00597A77 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79899EDA252F337A00597A77 /* GoogleMaps.framework */; };
+		79899EDF252F337B00597A77 /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 79899EDB252F337B00597A77 /* GoogleMaps.bundle */; };
+		79899EE4252F346600597A77 /* Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79899EE3252F346600597A77 /* Hero.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		79899E7D252F2C1B00597A77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79899E5E252F2C1900597A77 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79899E65252F2C1900597A77;
+			remoteInfo = mapSqlite;
+		};
+		79899E88252F2C1B00597A77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79899E5E252F2C1900597A77 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79899E65252F2C1900597A77;
+			remoteInfo = mapSqlite;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		79899E66252F2C1900597A77 /* mapSqlite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mapSqlite.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		79899E69252F2C1900597A77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		79899E6B252F2C1900597A77 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		79899E6D252F2C1900597A77 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		79899E70252F2C1900597A77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		79899E72252F2C1B00597A77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		79899E75252F2C1B00597A77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		79899E77252F2C1B00597A77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79899E7C252F2C1B00597A77 /* mapSqliteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mapSqliteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79899E80252F2C1B00597A77 /* mapSqliteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapSqliteTests.swift; sourceTree = "<group>"; };
+		79899E82252F2C1B00597A77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79899E87252F2C1B00597A77 /* mapSqliteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mapSqliteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79899E8B252F2C1B00597A77 /* mapSqliteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapSqliteUITests.swift; sourceTree = "<group>"; };
+		79899E8D252F2C1B00597A77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79899EA8252F2D6200597A77 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		79899EAA252F2D6F00597A77 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		79899EAC252F2D7800597A77 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		79899EAE252F2D8100597A77 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		79899EB0252F2D8A00597A77 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		79899EB5252F2D9900597A77 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		79899EBA252F2DAD00597A77 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		79899EBC252F2DB900597A77 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		79899EBE252F2DC300597A77 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		79899EC0252F2DCC00597A77 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		79899EC2252F2DDF00597A77 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		79899EC4252F2DE900597A77 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		79899EC6252F2DF000597A77 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		79899EC8252F2DF800597A77 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		79899ECA252F2E0300597A77 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		79899ED8252F337600597A77 /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMapsBase.framework; sourceTree = "<group>"; };
+		79899ED9252F337800597A77 /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMapsCore.framework; sourceTree = "<group>"; };
+		79899EDA252F337A00597A77 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
+		79899EDB252F337B00597A77 /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GoogleMaps.bundle; sourceTree = "<group>"; };
+		79899EE3252F346600597A77 /* Hero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hero.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79899E63252F2C1900597A77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79899ECB252F2E0300597A77 /* Accelerate.framework in Frameworks */,
+				79899EC9252F2DF900597A77 /* CoreData.framework in Frameworks */,
+				79899EDD252F337B00597A77 /* GoogleMapsCore.framework in Frameworks */,
+				79899EC7252F2DF000597A77 /* CoreGraphics.framework in Frameworks */,
+				79899EC5252F2DE900597A77 /* CoreImage.framework in Frameworks */,
+				79899EC3252F2DDF00597A77 /* CoreLocation.framework in Frameworks */,
+				79899EDE252F337B00597A77 /* GoogleMaps.framework in Frameworks */,
+				79899EC1252F2DCC00597A77 /* CoreText.framework in Frameworks */,
+				79899EBF252F2DC300597A77 /* CoreTelephony.framework in Frameworks */,
+				79899EBD252F2DB900597A77 /* GLKit.framework in Frameworks */,
+				79899EBB252F2DAD00597A77 /* ImageIO.framework in Frameworks */,
+				79899EB6252F2D9900597A77 /* libc++.tbd in Frameworks */,
+				79899EB1252F2D8A00597A77 /* libz.tbd in Frameworks */,
+				79899EAF252F2D8100597A77 /* OpenGLES.framework in Frameworks */,
+				79899EAD252F2D7800597A77 /* QuartzCore.framework in Frameworks */,
+				79899EDC252F337B00597A77 /* GoogleMapsBase.framework in Frameworks */,
+				79899EAB252F2D7000597A77 /* SystemConfiguration.framework in Frameworks */,
+				79899EA9252F2D6200597A77 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79899E79252F2C1B00597A77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79899E84252F2C1B00597A77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79899E5D252F2C1900597A77 = {
+			isa = PBXGroup;
+			children = (
+				79899E68252F2C1900597A77 /* mapSqlite */,
+				79899E7F252F2C1B00597A77 /* mapSqliteTests */,
+				79899E8A252F2C1B00597A77 /* mapSqliteUITests */,
+				79899E67252F2C1900597A77 /* Products */,
+				79899EA7252F2D6200597A77 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		79899E67252F2C1900597A77 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79899E66252F2C1900597A77 /* mapSqlite.app */,
+				79899E7C252F2C1B00597A77 /* mapSqliteTests.xctest */,
+				79899E87252F2C1B00597A77 /* mapSqliteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79899E68252F2C1900597A77 /* mapSqlite */ = {
+			isa = PBXGroup;
+			children = (
+				79899E69252F2C1900597A77 /* AppDelegate.swift */,
+				79899E6B252F2C1900597A77 /* SceneDelegate.swift */,
+				79899E6D252F2C1900597A77 /* ViewController.swift */,
+				79899E6F252F2C1900597A77 /* Main.storyboard */,
+				79899EE3252F346600597A77 /* Hero.swift */,
+				79899E72252F2C1B00597A77 /* Assets.xcassets */,
+				79899E74252F2C1B00597A77 /* LaunchScreen.storyboard */,
+				79899EDB252F337B00597A77 /* GoogleMaps.bundle */,
+				79899EDA252F337A00597A77 /* GoogleMaps.framework */,
+				79899ED8252F337600597A77 /* GoogleMapsBase.framework */,
+				79899ED9252F337800597A77 /* GoogleMapsCore.framework */,
+				79899E77252F2C1B00597A77 /* Info.plist */,
+			);
+			path = mapSqlite;
+			sourceTree = "<group>";
+		};
+		79899E7F252F2C1B00597A77 /* mapSqliteTests */ = {
+			isa = PBXGroup;
+			children = (
+				79899E80252F2C1B00597A77 /* mapSqliteTests.swift */,
+				79899E82252F2C1B00597A77 /* Info.plist */,
+			);
+			path = mapSqliteTests;
+			sourceTree = "<group>";
+		};
+		79899E8A252F2C1B00597A77 /* mapSqliteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				79899E8B252F2C1B00597A77 /* mapSqliteUITests.swift */,
+				79899E8D252F2C1B00597A77 /* Info.plist */,
+			);
+			path = mapSqliteUITests;
+			sourceTree = "<group>";
+		};
+		79899EA7252F2D6200597A77 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				79899ECA252F2E0300597A77 /* Accelerate.framework */,
+				79899EC8252F2DF800597A77 /* CoreData.framework */,
+				79899EC6252F2DF000597A77 /* CoreGraphics.framework */,
+				79899EC4252F2DE900597A77 /* CoreImage.framework */,
+				79899EC2252F2DDF00597A77 /* CoreLocation.framework */,
+				79899EC0252F2DCC00597A77 /* CoreText.framework */,
+				79899EBE252F2DC300597A77 /* CoreTelephony.framework */,
+				79899EBC252F2DB900597A77 /* GLKit.framework */,
+				79899EBA252F2DAD00597A77 /* ImageIO.framework */,
+				79899EB5252F2D9900597A77 /* libc++.tbd */,
+				79899EB0252F2D8A00597A77 /* libz.tbd */,
+				79899EAE252F2D8100597A77 /* OpenGLES.framework */,
+				79899EAC252F2D7800597A77 /* QuartzCore.framework */,
+				79899EAA252F2D6F00597A77 /* SystemConfiguration.framework */,
+				79899EA8252F2D6200597A77 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79899E65252F2C1900597A77 /* mapSqlite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79899E90252F2C1B00597A77 /* Build configuration list for PBXNativeTarget "mapSqlite" */;
+			buildPhases = (
+				79899E62252F2C1900597A77 /* Sources */,
+				79899E63252F2C1900597A77 /* Frameworks */,
+				79899E64252F2C1900597A77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mapSqlite;
+			productName = mapSqlite;
+			productReference = 79899E66252F2C1900597A77 /* mapSqlite.app */;
+			productType = "com.apple.product-type.application";
+		};
+		79899E7B252F2C1B00597A77 /* mapSqliteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79899E93252F2C1B00597A77 /* Build configuration list for PBXNativeTarget "mapSqliteTests" */;
+			buildPhases = (
+				79899E78252F2C1B00597A77 /* Sources */,
+				79899E79252F2C1B00597A77 /* Frameworks */,
+				79899E7A252F2C1B00597A77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79899E7E252F2C1B00597A77 /* PBXTargetDependency */,
+			);
+			name = mapSqliteTests;
+			productName = mapSqliteTests;
+			productReference = 79899E7C252F2C1B00597A77 /* mapSqliteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		79899E86252F2C1B00597A77 /* mapSqliteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79899E96252F2C1B00597A77 /* Build configuration list for PBXNativeTarget "mapSqliteUITests" */;
+			buildPhases = (
+				79899E83252F2C1B00597A77 /* Sources */,
+				79899E84252F2C1B00597A77 /* Frameworks */,
+				79899E85252F2C1B00597A77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79899E89252F2C1B00597A77 /* PBXTargetDependency */,
+			);
+			name = mapSqliteUITests;
+			productName = mapSqliteUITests;
+			productReference = 79899E87252F2C1B00597A77 /* mapSqliteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79899E5E252F2C1900597A77 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					79899E65252F2C1900597A77 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					79899E7B252F2C1B00597A77 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 79899E65252F2C1900597A77;
+					};
+					79899E86252F2C1B00597A77 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 79899E65252F2C1900597A77;
+					};
+				};
+			};
+			buildConfigurationList = 79899E61252F2C1900597A77 /* Build configuration list for PBXProject "mapSqlite" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 79899E5D252F2C1900597A77;
+			productRefGroup = 79899E67252F2C1900597A77 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79899E65252F2C1900597A77 /* mapSqlite */,
+				79899E7B252F2C1B00597A77 /* mapSqliteTests */,
+				79899E86252F2C1B00597A77 /* mapSqliteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79899E64252F2C1900597A77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79899E76252F2C1B00597A77 /* LaunchScreen.storyboard in Resources */,
+				79899E73252F2C1B00597A77 /* Assets.xcassets in Resources */,
+				79899E71252F2C1900597A77 /* Main.storyboard in Resources */,
+				79899EDF252F337B00597A77 /* GoogleMaps.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79899E7A252F2C1B00597A77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79899E85252F2C1B00597A77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79899E62252F2C1900597A77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79899E6E252F2C1900597A77 /* ViewController.swift in Sources */,
+				79899E6A252F2C1900597A77 /* AppDelegate.swift in Sources */,
+				79899E6C252F2C1900597A77 /* SceneDelegate.swift in Sources */,
+				79899EE4252F346600597A77 /* Hero.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79899E78252F2C1B00597A77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79899E81252F2C1B00597A77 /* mapSqliteTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79899E83252F2C1B00597A77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79899E8C252F2C1B00597A77 /* mapSqliteUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		79899E7E252F2C1B00597A77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79899E65252F2C1900597A77 /* mapSqlite */;
+			targetProxy = 79899E7D252F2C1B00597A77 /* PBXContainerItemProxy */;
+		};
+		79899E89252F2C1B00597A77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79899E65252F2C1900597A77 /* mapSqlite */;
+			targetProxy = 79899E88252F2C1B00597A77 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		79899E6F252F2C1900597A77 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79899E70252F2C1900597A77 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		79899E74252F2C1B00597A77 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79899E75252F2C1B00597A77 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		79899E8E252F2C1B00597A77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		79899E8F252F2C1B00597A77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		79899E91252F2C1B00597A77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7LFW8NLZCG;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/mapSqlite",
+				);
+				INFOPLIST_FILE = mapSqlite/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Vrushabh-Rupala.mapSqlite";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		79899E92252F2C1B00597A77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7LFW8NLZCG;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/mapSqlite",
+				);
+				INFOPLIST_FILE = mapSqlite/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Vrushabh-Rupala.mapSqlite";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		79899E94252F2C1B00597A77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7LFW8NLZCG;
+				INFOPLIST_FILE = mapSqliteTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Vrushabh-Rupala.mapSqliteTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mapSqlite.app/mapSqlite";
+			};
+			name = Debug;
+		};
+		79899E95252F2C1B00597A77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7LFW8NLZCG;
+				INFOPLIST_FILE = mapSqliteTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Vrushabh-Rupala.mapSqliteTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mapSqlite.app/mapSqlite";
+			};
+			name = Release;
+		};
+		79899E97252F2C1B00597A77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7LFW8NLZCG;
+				INFOPLIST_FILE = mapSqliteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Vrushabh-Rupala.mapSqliteUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = mapSqlite;
+			};
+			name = Debug;
+		};
+		79899E98252F2C1B00597A77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7LFW8NLZCG;
+				INFOPLIST_FILE = mapSqliteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Vrushabh-Rupala.mapSqliteUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = mapSqlite;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79899E61252F2C1900597A77 /* Build configuration list for PBXProject "mapSqlite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79899E8E252F2C1B00597A77 /* Debug */,
+				79899E8F252F2C1B00597A77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79899E90252F2C1B00597A77 /* Build configuration list for PBXNativeTarget "mapSqlite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79899E91252F2C1B00597A77 /* Debug */,
+				79899E92252F2C1B00597A77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79899E93252F2C1B00597A77 /* Build configuration list for PBXNativeTarget "mapSqliteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79899E94252F2C1B00597A77 /* Debug */,
+				79899E95252F2C1B00597A77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79899E96252F2C1B00597A77 /* Build configuration list for PBXNativeTarget "mapSqliteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79899E97252F2C1B00597A77 /* Debug */,
+				79899E98252F2C1B00597A77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79899E5E252F2C1900597A77 /* Project object */;
+}
